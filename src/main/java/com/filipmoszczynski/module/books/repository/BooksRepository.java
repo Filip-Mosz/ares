@@ -1,4 +1,4 @@
-package com.filipmoszczynski.module.books;
+package com.filipmoszczynski.module.books.repository;
 
 import com.filipmoszczynski.module.books.entity.BooksEntity;
 import org.springframework.data.jpa.repository.JpaRepository;

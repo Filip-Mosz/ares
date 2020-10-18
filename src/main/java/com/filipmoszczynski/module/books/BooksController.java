@@ -5,6 +5,7 @@ import com.filipmoszczynski.module.books.dto.BookForm;
 import com.filipmoszczynski.module.books.entity.BooksEntity;
 import com.filipmoszczynski.module.books.mapper.BookFormMapper;
 import com.filipmoszczynski.module.books.mapper.BookMapper;
+import com.filipmoszczynski.module.books.repository.BooksRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
