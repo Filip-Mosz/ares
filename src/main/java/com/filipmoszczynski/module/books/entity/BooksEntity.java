@@ -1,4 +1,4 @@
-package com.filipmoszczynski.module.books;
+package com.filipmoszczynski.module.books.entity;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
