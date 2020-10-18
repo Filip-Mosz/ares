@@ -1,4 +1,4 @@
-package com.michalszalkowski.module.books;
+package com.filipmoszczynski.module.books;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +9,11 @@ import java.util.List;
 public class BooksController {
 
 	@Autowired
-	private BooksRepository booksRepository;
+	public BooksController(BooksRepository booksRepository) {
+		this.booksRepository = booksRepository;
+	}
+
+	private final BooksRepository booksRepository;
 
 	@GetMapping(value = "/api/books/{id}")
 	public BooksEntity getBook(@PathVariable Long id) {

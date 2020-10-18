@@ -1,4 +1,4 @@
-package com.michalszalkowski.module.books;
+package com.filipmoszczynski.module.books;
 
 import javax.persistence.*;
 

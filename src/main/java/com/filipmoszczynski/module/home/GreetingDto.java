@@ -1,4 +1,4 @@
-package com.michalszalkowski.module.home;
+package com.filipmoszczynski.module.home;
 
 public class GreetingDto {
 

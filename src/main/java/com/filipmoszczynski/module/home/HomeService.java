@@ -1,4 +1,4 @@
-package com.michalszalkowski.module.home;
+package com.filipmoszczynski.module.home;
 
 import org.springframework.stereotype.Service;
 
