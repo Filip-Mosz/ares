@@ -49,4 +49,13 @@ public class BooksEntity {
 		this.title = title;
 		return this;
 	}
+
+	public BooksDetailsEntity getDetails() {
+		return details;
+	}
+
+	public BooksEntity setDetails(BooksDetailsEntity details) {
+		this.details = details;
+		return this;
+	}
 }
