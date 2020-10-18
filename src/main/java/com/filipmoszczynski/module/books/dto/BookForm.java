@@ -1,10 +1,14 @@
 package com.filipmoszczynski.module.books.dto;
 
+import javax.validation.constraints.NotNull;
 import java.util.List;
 
 public class BookForm {
 
+
+    @NotNull(message = "Author for book is required")
     private String author;
+    @NotNull(message = "Title for book is required")
     private String title;
     private String isbn;
     private String lang;

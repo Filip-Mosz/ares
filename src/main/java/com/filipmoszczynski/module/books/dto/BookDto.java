@@ -2,6 +2,10 @@ package com.filipmoszczynski.module.books.dto;
 
 import java.util.Set;
 
+import javax.validation.constraints.NotNull;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class BookDto {
 
     private Long id;
