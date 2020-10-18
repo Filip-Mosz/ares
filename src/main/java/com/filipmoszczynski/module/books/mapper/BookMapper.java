@@ -18,7 +18,9 @@ public class BookMapper {
     public static List<BookDto> map(List<BooksEntity> entities) {
         return entities
                 .stream()
-                .map(BookMapper::map)
+                .map(entity -> map(entity))
                 .collect(Collectors.toList());
     }
 }
+
+//todo należałoby napisać na to testy
