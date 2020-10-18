@@ -5,7 +5,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ErrorMessageMapper {
+public class ErrorMessagesMapper {
 
     public static List<String> map(MethodArgumentNotValidException ex) {
         return ex.getBindingResult()
