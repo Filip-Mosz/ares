@@ -1,5 +1,6 @@
 package com.filipmoszczynski.module.books;
 
+import com.filipmoszczynski.module.books.entity.BooksEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
