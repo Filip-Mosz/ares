@@ -18,6 +18,11 @@ public class BooksEntity {
 	private String title;
 
 
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "details_id", referencedColumnName = "id")
+	private BooksDetailsEntity details;
+
+
 	public Long getId() {
 		return id;
 	}
